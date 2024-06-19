@@ -8,13 +8,13 @@
 .aside-video-containers {
     display: flex;
     flex-direction: row;
-    margin: 0 0 .5rem 1rem;
+    padding: 24px 24px 0 0;
 }
 
 .thumbnail {
     height: 90px;
     width: 160px;
-    margin: 0 10px;
+    margin-right: 8px;
     background-color: aquamarine;
 }
 
