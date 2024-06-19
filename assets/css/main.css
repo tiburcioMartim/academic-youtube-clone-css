@@ -1,0 +1,21 @@
+@import url(global.css);
+
+body {
+    background-color: silver;
+}
+
+.video-page main {
+    flex-grow: 2;
+}
+
+#video-page {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    background-color: aqua;
+}
+
+main img {
+    height: calc(9% * 4);
+    width: calc(16% * 4);
+}

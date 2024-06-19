@@ -9,6 +9,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/aside.css">
     <title>Youtube</title>
 </head>
 
@@ -33,7 +35,7 @@
         </div>
     </header>
 
-    <section>
+    <section id="video-page">
         <main>
             <img src="assets/img/thumb/main-video.jpg" alt="DIO video">
             <h1>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
@@ -72,16 +74,117 @@
                 e dark) para explorarmos os mistérios do mundo invertido.
             </span>
         </main>
-        <aside>
+        <aside id="container-aside">
             <div class="aside-video-containers">
                 <div class="thumbnail">
                     <img src="assets/img/thumb/thumb-01.jpg" alt="Geração Tech Unimed - BH - Ciência de Dados">
                 </div>
                 <div class="aside-video-info">
-                    <p class="aside-video-title">Geração Tech Unimed - BH - Ciência de Dados</p>
-                    <p class="aside-video-channel-name">DigitalInnovationOne</p>
-                    <p class="aside-video-views">2,1 mil visualizações</p>
-                    <p class="aside-video-transmition">Transmitido há 2 dias</p>
+                    <span class="aside-video-title">Geração Tech Unimed - BH - Ciência de Dados</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">2,1 mil visualizações Transmitido há 2 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-02.jpg" alt="Scrum Talks">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Scrum Talks</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">1,6 mil visualizações Transmitido há 3 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-03.jpg" alt="Machine Learning Avançado - Fast Track">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Machine Learning Avançado - Fast Track</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">1,7 mil visualizações Transmitido há 4 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-04.jpg" alt="Global Skills #2 - Project Planning">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Global Skills #2 - Project Planning</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">971 visualizações Transmitido há 5 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-05.jpg" alt="Como aprender a programar Python do ZERO">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Como aprender a programar Python do ZERO</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">711 visualizações Transmitido há 6 dias</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-01.jpg" alt="Geração Tech Unimed - BH - Ciência de Dados">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Geração Tech Unimed - BH - Ciência de Dados</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">2,1 mil visualizações Transmitido há 2 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-02.jpg" alt="Scrum Talks">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Scrum Talks</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">1,6 mil visualizações Transmitido há 3 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-03.jpg" alt="Machine Learning Avançado - Fast Track">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Machine Learning Avançado - Fast Track</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">1,7 mil visualizações Transmitido há 4 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-04.jpg" alt="Global Skills #2 - Project Planning">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Global Skills #2 - Project Planning</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">971 visualizações Transmitido há 5 dias</span>
+                </div>
+            </div>
+
+            <div class="aside-video-containers">
+                <div class="thumbnail">
+                    <img src="assets/img/thumb/thumb-05.jpg" alt="Como aprender a programar Python do ZERO">
+                </div>
+                <div class="aside-video-info">
+                    <span class="aside-video-title">Como aprender a programar Python do ZERO</span>
+                    <span class="aside-video-channel-name">DigitalInnovationOne</span>
+                    <span class="aside-video-views">711 visualizações Transmitido há 6 dias</span>
                 </div>
             </div>
         </aside>
