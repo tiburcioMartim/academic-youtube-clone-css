@@ -3,7 +3,7 @@
 #container-aside {
     width: 30%;
     padding: 24px 24px 0 0;
-    background-color: #b7ddf7;
+    /* background-color: #b7ddf7; */
 }
 
 .aside-video-containers {
@@ -39,34 +39,41 @@
     font-size: 12px;
     margin-bottom: 8px;
     font-weight: 600;
-    width: fit-content;
-    overflow: hidden;
+    /* width: 173px;
+    white-space: nowrap;
+    overflow: hidden; */
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .aside-video-channel-name {
+    color: #515151;
     font-size: 12px;
     margin-bottom: 8px;
-    width: fit-content;
+    width: 138px;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .aside-video-views {
+    color: #515151;
     font-size: 12px;
-    width: fit-content;
+    width: 138px;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .aside-video-transmition {
+    color: #515151;
     font-size: 12px;
-    width: fit-content;
+    width: 138px;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
