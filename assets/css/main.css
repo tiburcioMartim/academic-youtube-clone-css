@@ -14,7 +14,6 @@
     margin: 0 0 0 24px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(187, 134, 236);
 }
 
 .main-video {
@@ -22,14 +21,74 @@
     width: 640px;
 }
 
-.btn-subscriber{
-    height: 50px;
-    width: 100px;
-    color: aliceblue;
-    background-color: red;
+#container-main h1 {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .video-bar-info {
+    gap: 19px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.video-bar-info img {
+    height: 20px;    
+}
+
+.channel {
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-logo{
+    height: 42px !important;
+    width: 42px !important;
+}
+
+.channel-info {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.channel-subscribers{
+    font-weight: 400 !important;
+    color: #515151;
+}
+
+.video-bar-info span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.video-bar-info div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-subscriber {
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    background-color: red;
+}
+
+.video-info{
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.video-description{
+    font-size: 12px;
+    color: #515151;
+    width: 440px;
 }

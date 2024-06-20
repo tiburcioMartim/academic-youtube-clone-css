@@ -39,12 +39,8 @@
     font-size: 12px;
     margin-bottom: 8px;
     font-weight: 600;
-    /* width: 173px;
-    white-space: nowrap;
-    overflow: hidden; */
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
-    /* border: 1px solid black; */
 }
 
 .aside-video-channel-name {
@@ -55,7 +51,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* border: 1px solid black; */
 }
 
 .aside-video-views {
@@ -65,7 +60,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* border: 1px solid black; */
 }
 
 .aside-video-transmition {
@@ -75,5 +69,4 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* border: 1px solid black; */
 }
